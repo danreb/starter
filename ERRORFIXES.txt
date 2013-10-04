@@ -1,0 +1,15 @@
+ERROR 1 - internal server error 500
+------------------------------------
+Cause by directory and file permission, fix by using a recursive chmod tricks. Folder permission should be 755 and file permission should be 644. The following command that can be executed in linux shell will fix the problem.
+
+Recursively chmod only directories
+find . -type d -exec chmod 755 {} \;
+
+Recursively chmod only files
+find . -type f -exec chmod 644 {} \;
+
+
+
+
+ 
+  
