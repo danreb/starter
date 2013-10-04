@@ -1,0 +1,11 @@
+name = Boost Cache Cleaner
+description = This module flush the boost cache instantly while any care update occurs.
+core = 7.x
+dependencies[] = boost
+
+; Information added by drupal.org packaging script on 2013-09-30
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "boost_cache_cleaner"
+datestamp = "1380556710"
+
