@@ -2,17 +2,15 @@ name = Backup and Migrate
 description = "Backup the Drupal database and files or migrate them to another environment."
 core = 7.x
 
-files[] = backup_migrate.module
-files[] = backup_migrate.install
 files[] = includes/destinations.inc
 files[] = includes/profiles.inc
 files[] = includes/schedules.inc
 
 configure = admin/config/system/backup_migrate
 
-; Information added by drupal.org packaging script on 2013-10-30
+; Information added by Drupal.org packaging script on 2014-02-18
 version = "7.x-3.x-dev"
 core = "7.x"
 project = "backup_migrate"
-datestamp = "1383092332"
+datestamp = "1392753820"
 
